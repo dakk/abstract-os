@@ -1,0 +1,5 @@
+/** Gui drawing api */
+
+UiManager::addWindow(Window *);
+
+

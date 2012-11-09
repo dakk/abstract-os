@@ -1,0 +1,22 @@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@anonymous@main@@()@
+CCCC_MemExt@anonymous@main@@()@main.c@16@definition@F????@LOC:66 COM:8 MVG:15@?@d@
+CCCC_Member@anonymous@pork_gui@@(int,int)@
+CCCC_MemExt@anonymous@pork_gui@@(int,int)@main.c@12@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@shell@@()@
+CCCC_MemExt@anonymous@shell@@()@main.c@11@declaration@F????@LOC:1 COM:0 MVG:0@?@D@
+CCCC_Member@anonymous@shutdown@@(int)@
+CCCC_MemExt@anonymous@shutdown@@(int)@main.c@135@definition@F????@LOC:25 COM:1 MVG:5@?@d@
+CCCC_RejExt@main.c@1@<file scope items>@F????@LOC:2 COM:2 MVG:0@?@r@

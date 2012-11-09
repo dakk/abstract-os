@@ -1,0 +1,32 @@
+#ifndef __CONFIG_H
+#define __CONFIG_H
+
+#define ARCH_X86
+#define BIT32
+#define ARCH "x86"
+#define X86
+#define ELF
+#define RANDOM
+#define PCIBUS
+#define VESA
+#define MOUSE
+#define KEYBOARD
+#define FRAMEBUFFER
+#define SMBIOS
+#define RS232
+#define PCSPK
+#define RTL8139
+#define NETWORK
+#define NETWORK_LO
+#define NETWORK_IPV4
+#define VFS
+#define RAMDISK
+#define FAT16
+#define ISO9660
+#define ABGUI
+#define ABGUI_LOADER
+
+
+#define CONTENTS "ELF RANDOM PCIBUS VESA MOUSE KEYBOARD FRAMEBUFFER SMBIOS RS232 PCSPK RTL8139 NETWORK NETWORK_LO NETWORK_IPV4 VFS RAMDISK FAT16 ISO9660 ABGUI ABGUI_LOADER "
+
+#endif

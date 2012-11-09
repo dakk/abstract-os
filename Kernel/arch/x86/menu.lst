@@ -1,0 +1,25 @@
+timeout 1
+
+
+title	OS
+	root (cd)
+	kernel /kernel dev=ram0 fs=tarfs
+	module /mtest
+	boot	
+
+
+title	OS graph 115
+	root (cd)
+	kernel /kernel
+	vbeset 0x115
+	boot
+
+	
+title	OS graph 112
+	root (cd)
+	kernel /kernel
+	vbeset 0x112
+	boot
+
+title   Probe
+	vbeprobe

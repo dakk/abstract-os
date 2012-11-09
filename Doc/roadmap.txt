@@ -1,0 +1,71 @@
+TODO:
+	- Decide if memory will be definined as a class in the singleton,
+		a static class with static methods, or c functions
+
+0.1 Filesystem:
+	x Generic filesystem interface	(Filesystem)					[ 80%]
+	x Mount							(VFSManager::Mount)				[100%]
+	x Filesystem operations			(Filesystem)					[ 90%]
+	x Ramdisk						(RamdiskDriver)					[100%]
+	x Find a name					(Abstract)						[100%]
+	x Add GPLv2 License in all files								[100%]
+	x Optimize physical allocator									[100%]
+	x Rs232 driver					(Rs232Driver)					[100%]
+	x Pcspk driver					(PcspkDriver)					[ 80%]
+	x Vesa driver					(VesaDriver)					[ 80%]
+	x DevFs							(DevFs)							[100%]
+	x TarFs							(Tarfs)							[ 80%]
+	x Mouse driver					(MouseDriver)					[ 80%]
+	- Paging support												[  3%]
+	- Shell															[  8%]
+
+0.2 Executables and ports:
+	- Elf binary loader				(Elf)							[ 13%]
+	- Syscall support				(archx86)						[ 10%]
+	- Usermode						(archx86)						[  0%]
+	- Toolchain														[  0%]
+	- Port of libc													[  0%]
+	- Port of curses												[  0%]
+	- Port of vim
+
+0.3 Desktop
+	- System window manager and buffer rendering					[  0%]
+	- First desktop env												[  0%]
+	- Framebuffer driver			(FramebufferDriver)				[  1%]
+	- Port of a gui toolkit											[  0%]
+
+0.4 Disk:
+	- Ide driver					(IdeDriver)						[  0%]
+	- Ext2 filesystem				(Ext2Filesystem)				[  0%]
+	x Pci bus driver				(PciBusDriver)					[ 90%]
+	- Script to create an ext2 fs image								[  0%]
+
+0.5 Network:
+	- Network interface				(NetworkIface)					[ 25%]
+	x Network loopback				(NetworkLoopback)				[100%]
+	x Packet class					(Packet)						[ 80%]
+
+0.6 Multitasking:
+	- Multitasking					(TaskManager, Task)				[  0%]
+	- Ipc							(TaskManager, Task)				[  0%]
+
+0.7 Socket:
+	- Socket interface				(NetworkSocket)					[  0%]
+
+0.8 Network stack:
+	- Rtl8139 driver				(Rtl8139Driver)					[  0%]
+	- Eth driver					(NetworkEthernet)				[  0%]
+	- Tcp driver					(NetworkTcp)					[  0%]
+	- Ping port						(NetworkIcmp)					[  0%]
+
+1.0 Usb:
+	- Usb bus driver				(Usb)
+	- Usb mass storage				(UsbMassStorage)
+
+
+Undefined:
+  	- Fat16 filesystem				(Fat16Filesystem)				[ 10%]
+	- Iso9660 filesystem			(Iso9660Filesystem)				[ 10%]
+	- Smbios driver					(SmbiosDriver)					[ 10%]
+	- Atapi cd driver												[  1%]
+
