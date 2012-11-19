@@ -4,7 +4,6 @@
 #include <Kernel/Managers.hpp>
 #include <kernel.h>
 
-
 DriverManager *getDriverManager();
 NetworkManager *getNetworkManager();
 DeviceManager *getDeviceManager();
